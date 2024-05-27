@@ -1,0 +1,26 @@
+|---------------------------------------------------------|
+|                                                         |
+|                    MACCHINE USATE                       |
+|                                                         |
+|---------------------------------------------------------|
+|        KEY            |            VALUE                |
+|-----------------------|---------------------------------|
+|Carrozzeria            |VARCHAR(30)                      |
+|Trazione               |VARCHAR(15)                      |
+|Posti                  |UNSIGNED TINYINT                 |
+|Porte                  |UNSIGNED TINYINT                 |
+|Garanzia               |UNSIGNED TINYINT                 |
+|Chilometraggio         |UNSIGNED MEDIUMINT               |
+|Anno produzione        |DATE                             |
+|Anno immatricolazione  |YEAR                             |
+|Potenza                |UNSIGNED TINYINT(20)             |
+|Cambio                 |VARCHAR(10)                      |
+|Cilindrata             |UNSIGNED MEDIUMINT               |
+|Marce                  |UNSIGNED TINYINT                 |
+|Peso complessivo       |UNSIGNED MEDIUMINT               |
+|Carburante             |VARCHAR(20)                      |
+|Classe emissioni       |UNSIGNED TINYINT                 |
+|Colore                 |VARCHAR(15)                      |
+|Materiale interni      |REF(Tabella Materiali)           |
+|EquipaggiamentI        |REF(Tabella Equipaggiamenti)     |
+|-----------------------|---------------------------------|                      
